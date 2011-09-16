@@ -1,0 +1,17 @@
+Package: Layer
+Version: 0.1-0
+Title: An R Graphics Device with Layer Support (preview)
+Author: Yixuan Qiu
+Maintainer: Yixuan Qiu <yixuan.qiu@cos.name>
+SystemRequirements: gtk+-2.0
+Description: This package implements an R graphics device
+    based on layers. Users could create shapes on different
+    layers and manage them separately. Each layer supports
+    some transformations, e.g., moving, scaling and
+    rotation. These transformations could be done either by
+    calling functions in R or by mouse operations in the
+    GUI.
+License: GPL
+Collate:
+    'Layer-package.R'
+    'Layer.R'

@@ -1,0 +1,5 @@
+echo PKG_CPPFLAGS= \\ > ./src/Makevars.win
+pkg-config gtk+-2.0 freetype2 --cflags >> ./src/Makevars.win
+echo PKG_LIBS= \\ >> ./src/Makevars.win
+pkg-config gtk+-2.0 freetype2 --libs >> ./src/Makevars.win
+

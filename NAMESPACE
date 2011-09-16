@@ -1,0 +1,5 @@
+export(add.layer)
+export(get.current.layer)
+export(get.layers)
+export(Layer)
+export(set.current.layer)
